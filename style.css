@@ -1,0 +1,244 @@
+/*
+#3496d8  plava
+#8f8f8f  tamno siva
+*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900|Slabo+27px');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: 'Slabo 27px', serif;
+    color: #8f8f8f;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    width: 90%;
+    margin: 40px auto;
+}
+
+/********** HEADER ***********/
+header {
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0 50px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+.logo {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+header hgroup {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+header hgroup h2 {
+    font-size: 5rem;
+    text-shadow: 3px 3px 16px black;
+}
+header hgroup h4 {
+    font-size: 2rem;
+}
+header hgroup h5 {
+    font-size: 1.1rem;
+    padding-top: 20px;
+}
+
+/********** INTRODUCTION ***********/
+.introduction {
+    display: flex;
+}
+.introduction .col {
+    flex: 1;
+}
+.introduction img {
+    width: 100%;
+}
+.introduction .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+.introduction .text h2 {
+    font-size: 3rem;
+    color: #3496d8;
+}
+.introduction .text p {
+    font-size: 1.1rem;
+}
+.introduction button {
+    width: 200px;
+    background: #3496d8;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+/********** SERVICES ***********/
+.services {
+    display: flex;
+}
+.col {
+    flex: 1;
+    margin: 15px;
+    padding: 20px;
+}
+.services h2 {
+    color: #3496d8;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.8rem;
+ }
+.services h3 {
+    color: #3496d8;
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 20px;
+ }
+.services p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/********** OUR WORK ***********/
+.our-work {
+    text-align: center;
+}
+.our-work h2 {
+    font-size: 3rem;
+    color: #3496d8;
+    padding-bottom: 20px;
+}
+.our-work p {
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+}
+
+/********** WORKS ***********/
+.works {
+    display: flex;
+}
+.works .col {
+    flex: 1;
+    position: relative;
+    border-bottom: 10px solid #3496d8;
+}
+.img1 {
+    background-image: url(img/works1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.img2 {
+    background-image: url(img/works2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.img3 {
+    background-image: url(img/works3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.img4 {
+    background-image: url(img/works4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.img5 {
+    background-image: url(img/works5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.works h4 {
+    display: inline-block;
+    background: rgba(52, 150, 216, 0.7);
+    padding: 20px 30px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.2rem;
+}
+
+/********** FOOTER ***********/
+footer {
+    background-image: url(img/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+footer .row1 {
+    display: flex;
+}
+footer .row2 {
+    display: flex;
+}
+footer .col {
+    flex: 1;
+    color: white;
+    font-size: 1.7rem;
+}
+footer  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer h2 {
+    color: white;
+    font-size: 4rem;
+    display: inline-block;
+    border-bottom: 10px solid white;
+    position: relative;
+    top: 32px;
+}
+footer p {
+    color: white;
+    font-size: 1.4rem;
+    padding: 20px 0;
+}
+footer hr {
+    color: white;
+    margin: 20px 0;
+}
+input[type="email"] {
+    padding: 10px;
+}
+footer button {
+    padding: 11px 30px;
+    background: #3496d8;
+    color: white;
+}
